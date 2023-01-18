@@ -4,6 +4,7 @@ import pytest
 @pytest.fixture()
 def stack():
     return stack()
+
 def test_constructor():
     s = Stack()
     assert len(s) == 0
