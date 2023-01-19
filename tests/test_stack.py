@@ -1,6 +1,8 @@
 from data_structure.stack import Stack
 import pytest
 
+# Run tests: python3 $ -m pytest
+# See test coverage: $ python3 -m pytest -v -cov
 @pytest.fixture()
 def stack():
     return Stack()
@@ -21,4 +23,3 @@ def test_pop(stack):
     assert stack.pop() == "to open old wounds"
     assert stack.pop() == "push barman"
     assert stack.pop() is None
-
