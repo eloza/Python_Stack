@@ -1,2 +1,2 @@
 # Python_Stack
-Simple python stack demonstrating pytest
+Simple Python stack demonstrating pytest
